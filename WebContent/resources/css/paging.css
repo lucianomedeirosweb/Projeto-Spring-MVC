@@ -1,0 +1,38 @@
+.pg-ctrl
+{
+	font:bold 16px verdana;
+	color: #0063e3;
+	text-decoration: none; 
+	cursor: pointer;    
+	padding:4px;
+	margin:0px;
+	border: 0px;	
+}
+.pg-normal 
+{
+	font:10px verdana;
+	color: #333;
+	text-decoration: none; 
+	cursor: pointer;    
+	background-color:#f6f6f6;
+	padding:3px 6px;
+	margin:1px;
+	border: 1px solid #7a9fe4;
+	border-radius: 5px; 
+}
+
+.pg-selected 
+{
+	font:10px verdana;
+	color: #2f3d5f;
+	text-decoration: none;    
+	cursor: pointer;
+	background-color:#7a9fe4;
+	padding:3px 6px;
+	margin:1px;
+	border: 1px solid #dde;
+	border-radius: 5px; 
+}
+.pg-normal:hover {
+	background: rgba(0,0,0,0.2);
+}
